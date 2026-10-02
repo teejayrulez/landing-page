@@ -1,0 +1,68 @@
+
+body{
+    font-family: "Roboto","Bungee Tint", sans-serif;
+}
+
+.bg-image{
+    background:linear-gradient(24deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url('download.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+    height: 300px;
+    color: white;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin: 0 20px;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    margin-left: 5px;
+}
+
+.logo-icon{
+    font-size: 50px;
+    color: gold;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul li a{
+    margin: 0 30px 0 0;
+}
+
+.active{
+    color: gold;
+}
+
+.nav-btn{
+    background-color: gold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

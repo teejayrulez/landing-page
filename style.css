@@ -1,0 +1,167 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto","Bungee Tint", sans-serif;
+}
+
+.bg-image{
+    background:linear-gradient(24deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url('download.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.hero-link{
+    color: gold;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0 20px;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-icon{
+    margin-left: 5px;
+}
+
+.logo-icon{
+    font-size: 50px;
+    color: gold;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul li a{
+    margin: 0 30px 0 0;
+}
+
+.active{
+    color: gold;
+}
+
+.nav-btn{
+    background-color: gold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.hero-text{
+    width: 600px;
+}
+
+.social-proof-1{
+    width: 120px;
+    height: 60px;
+    font-weight: 900;
+    border: 2px solid gold;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 20px;
+
+
+
+    position: absolute;
+    top: 160px;
+    right: 100px;
+}
+
+.social-proof-2{
+    width: 120px;
+    height: 60px;
+    font-weight: 900;
+    border: 2px solid gold;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 20px;
+
+
+
+    position: absolute;
+    top: 520px;
+    right: 550px;
+}
+
+.hero-icon{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 20%;
+    position: absolute;
+    top: 200px;
+    right: 650px;
+    color: white;
+    background-color: gold;
+}
+
+.hero-bg{
+    border-radius: 0 0 60% 53%;
+    z-index: 1;
+}
+
+.big-bg-circle{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to top, gold, white);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 300px;
+    right: 240px;
+    z-index: -1;
+}
+
+.sub-text{
+    color: grey;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
